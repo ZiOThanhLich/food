@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container .header img{
+    width: 200px;
+    position: relative;
+}
+.container .header{
+    background-color: rgb(246, 117, 94);
+}
+.container .header .menu-right {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    padding-top :35px;
+}
+.container .header .menu-left a{
+    color: white;
+    font-size: larger;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    
+}
+.container .header .menu-left {
+    position: absolute;
+    top: 0;
+    left: 600px;
+    padding-top :30px;
+    
+}
+a:hover{
+    background-color: orangered;
+}
+.container .header .menu-right a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.mid .img1{
+    width: 100%;
+    position: relative;
+    float: left;
+    opacity:0.7;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.gundam{
+    text-align: center;
+    background-color: rgb(202, 60, 60);
+    color: white;
+}
+.gd{
+    left: 100%;
+}
+.tk{
+    top: 90%;
+}

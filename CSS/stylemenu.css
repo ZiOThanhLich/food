@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container .header img{
+    width: 200px;
+    position: relative;
+}
+.container .header{
+    background-color: rgb(232, 150, 136);
+}
+.container .header .menu-right {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    padding-top :35px;
+}
+.container .header .menu-left a{
+    color: white;
+    font-size: larger;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    
+}
+.container .header .menu-left {
+    position: absolute;
+    top: 0;
+    left: 600px;
+    padding-top :30px;
+}
+a:hover{
+    background-color: orangered;
+}
+.container .header .menu-right a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.mid img{
+    width: 100%;
+    position: relative;
+    float: left;
+    opacity:0.88;
+}
+.mid .slogan{
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: -50% -50%;
+    
+}
+span{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: blue;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.gundam{
+    text-align: center;
+    background-color: rgb(202, 60, 60);
+    color: white;
+    font-size: larger;
+}
+.qa{
+    background-color: red;
+    width: 50%;
+    float: left;
+    height: 230px;
+    padding: 16px;
+    text-align: justify;
+}
+.gu{
+    background-color: blue;
+    width: 50%;
+    float: left;
+    height: 230px;
+    padding: 16px;
+    text-align: justify;
+}
+.da{
+    background-color: yellow;
+    clear: both;
+    text-align: justify;
+}
